@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dialog</key>
+	<dict>
+		<key>speakerName</key>
+		<string>cat_hero.png</string>
+		<key>panelName</key>
+		<string>paperPanel.png</string>
+		<key>messages</key>
+		<array>
+			<string>Once upon a time, there was a young cat prince \nwho live by himself in the forest of Bangkoku Town.</string>
+			<string>He has very charming black hair as every jing&apos;    \nbloddline should and determine to take the throne someday!.</string>
+			<string>One day, during a normal sightseeing, he meets \nhis friend, Dogudowf, a prince of neighbor kingdom.</string>
+			<string>He starts the war !!                                              \nT T&quot; How come!? Meaw~.</string>
+		</array>
+	</dict>
+</dict>
+</plist>

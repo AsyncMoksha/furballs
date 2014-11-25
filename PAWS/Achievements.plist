@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Achievements</key>
+	<array>
+		<dict>
+			<key>UpdateAvailable</key>
+			<false/>
+			<key>AchievedDescription</key>
+			<string>Collected 25 Coins In A Single Round </string>
+			<key>AchievementID</key>
+			<integer>105</integer>
+			<key>AchievementName</key>
+			<string>Ballin</string>
+			<key>AchievementPercentCompleted</key>
+			<integer>0</integer>
+			<key>UnachievedDescription</key>
+			<string>Collect 25 Coins In A Single Round</string>
+		</dict>
+		<dict>
+			<key>UpdateAvailable</key>
+			<false/>
+			<key>AchievedDescription</key>
+			<string>Finished the Dogs Campaign</string>
+			<key>AchievementID</key>
+			<integer>104</integer>
+			<key>AchievementName</key>
+			<string>Top Dog</string>
+			<key>AchievementPercentCompleted</key>
+			<integer>0</integer>
+			<key>UnachievedDescription</key>
+			<string>Finish the Dogs Campaign</string>
+		</dict>
+		<dict>
+			<key>UpdateAvailable</key>
+			<false/>
+			<key>AchievedDescription</key>
+			<string>Finished the Cats Campaign</string>
+			<key>AchievementID</key>
+			<integer>103</integer>
+			<key>AchievementName</key>
+			<string>Fat Cat</string>
+			<key>AchievementPercentCompleted</key>
+			<integer>0</integer>
+			<key>UnachievedDescription</key>
+			<string>Finish the Cats Campaign</string>
+		</dict>
+		<dict>
+			<key>UpdateAvailable</key>
+			<false/>
+			<key>AchievedDescription</key>
+			<string>Completed Level 1</string>
+			<key>AchievementID</key>
+			<integer>101</integer>
+			<key>AchievementName</key>
+			<string>Primitive Strike</string>
+			<key>AchievementPercentCompleted</key>
+			<integer>0</integer>
+			<key>UnachievedDescription</key>
+			<string>Complete Level 1</string>
+		</dict>
+		<dict>
+			<key>UpdateAvailable</key>
+			<false/>
+			<key>AchievedDescription</key>
+			<string>Won a round without losing any hitpoints</string>
+			<key>AchievementID</key>
+			<integer>102</integer>
+			<key>AchievementName</key>
+			<string>Flawless Victory</string>
+			<key>AchievementPercentCompleted</key>
+			<integer>0</integer>
+			<key>UnachievedDescription</key>
+			<string>Win a round without losing any hitpoints</string>
+		</dict>
+	</array>
+</dict>
+</plist>

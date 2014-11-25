@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>42FE590A-C622-41D9-A7CF-345A67321A84</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PAWS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8C9A8F73BEC26122C9429C77D82E2466243F6323</key>
+		<string>https://git.assembla.com/pawsgame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PAWS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8C9A8F73BEC26122C9429C77D82E2466243F6323</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.assembla.com/pawsgame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8C9A8F73BEC26122C9429C77D82E2466243F6323</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8C9A8F73BEC26122C9429C77D82E2466243F6323</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pawsgame</string>
+		</dict>
+	</array>
+</dict>
+</plist>

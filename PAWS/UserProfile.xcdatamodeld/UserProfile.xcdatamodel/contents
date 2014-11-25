@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Achievement" representedClassName="Achievement" syncable="YES">
+        <attribute name="achievedDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="achievementID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="achievementLetterIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="achievementName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="achievementPercentCompleted" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="unachievedDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userProfile" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="UserProfile" inverseName="achievements" inverseEntity="UserProfile" syncable="YES"/>
+    </entity>
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="unitType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="userProfile" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="UserProfile" inverseName="cards" inverseEntity="UserProfile" syncable="YES"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="itemType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="userProfile" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="UserProfile" inverseName="items" inverseEntity="UserProfile" syncable="YES"/>
+    </entity>
+    <entity name="Level" representedClassName="Level" syncable="YES">
+        <attribute name="completed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="levelID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="userProfile" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="UserProfile" inverseName="levels" inverseEntity="UserProfile" syncable="YES"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES">
+        <attribute name="attackDamageLevel" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="attackDamagePercentage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="attackSpeedLevel" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="attackSpeedPercentage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="campaign" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="coins" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hitPointLevel" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hitPointPercentage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="movementSpeedLevel" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="movementSpeedPercentage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spawnRateLevel" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="spawnRatePercentage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="achievements" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Achievement" inverseName="userProfile" inverseEntity="Achievement" syncable="YES"/>
+        <relationship name="cards" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Card" inverseName="userProfile" inverseEntity="Card" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Item" inverseName="userProfile" inverseEntity="Item" syncable="YES"/>
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Level" inverseName="userProfile" inverseEntity="Level" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Achievement" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="Card" positionX="70" positionY="-39" width="128" height="75"/>
+        <element name="Item" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Level" positionX="-477" positionY="-63" width="128" height="90"/>
+        <element name="UserProfile" positionX="-191" positionY="-279" width="128" height="195"/>
+    </elements>
+</model>

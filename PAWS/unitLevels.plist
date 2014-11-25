@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>unitLevels</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>hitPointLevel</string>
+			<key>maxLevel</key>
+			<integer>4</integer>
+			<key>levels</key>
+			<array>
+				<dict>
+					<key>levelID</key>
+					<integer>1</integer>
+					<key>levelDescription</key>
+					<string>Next level: +15% HP for all your units! Cost: 30 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>30</integer>
+					<key>upgradeFactor</key>
+					<real>0.15</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>2</integer>
+					<key>levelDescription</key>
+					<string>Next level: +25% HP for all your units! Cost: 100 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>100</integer>
+					<key>upgradeFactor</key>
+					<real>0.25</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>3</integer>
+					<key>levelDescription</key>
+					<string>Next level: +40% HP for all your units! Cost: 500 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>500</integer>
+					<key>upgradeFactor</key>
+					<real>0.4</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>4</integer>
+					<key>levelDescription</key>
+					<string>Next level: +60% HP for all your units! Cost: 2000 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>2000</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>5</integer>
+					<key>levelDescription</key>
+					<string>You have reached the highest level.</string>
+					<key>upgradeCost</key>
+					<integer>0</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>attackLevel</string>
+			<key>maxLevel</key>
+			<integer>4</integer>
+			<key>levels</key>
+			<array>
+				<dict>
+					<key>levelID</key>
+					<integer>1</integer>
+					<key>levelDescription</key>
+					<string>Next level: +15% attack for all your units! Cost: 20 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>20</integer>
+					<key>upgradeFactor</key>
+					<real>0.15</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>2</integer>
+					<key>levelDescription</key>
+					<string>Next level: +25% attack for all your units! Cost: 120 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>120</integer>
+					<key>upgradeFactor</key>
+					<real>0.25</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>3</integer>
+					<key>levelDescription</key>
+					<string>Next level: +40% attack for all your units! Cost: 500 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>500</integer>
+					<key>upgradeFactor</key>
+					<real>0.4</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>4</integer>
+					<key>levelDescription</key>
+					<string>Next level: +50% attack for all your units! Cost: 2000 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>2000</integer>
+					<key>upgradeFactor</key>
+					<real>0.5</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>5</integer>
+					<key>levelDescription</key>
+					<string>You have reached the highest level.</string>
+					<key>upgradeCost</key>
+					<integer>0</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>attackSpeedLevel</string>
+			<key>maxLevel</key>
+			<integer>4</integer>
+			<key>levels</key>
+			<array>
+				<dict>
+					<key>levelID</key>
+					<integer>1</integer>
+					<key>levelDescription</key>
+					<string>Next level: +15% attack speed for all your units! Cost: 20 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>20</integer>
+					<key>upgradeFactor</key>
+					<real>0.15</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>2</integer>
+					<key>levelDescription</key>
+					<string>Next level: +25% attack speed for all your units! Cost: 50 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>50</integer>
+					<key>upgradeFactor</key>
+					<real>0.25</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>3</integer>
+					<key>levelDescription</key>
+					<string>Next level: +40% attack speed for all your units! Cost: 500 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>500</integer>
+					<key>upgradeFactor</key>
+					<real>0.4</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>4</integer>
+					<key>levelDescription</key>
+					<string>Next level: +60% attack speed for all your units! Cost: 2000 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>2000</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>5</integer>
+					<key>levelDescription</key>
+					<string>You have reached the highest level.</string>
+					<key>upgradeCost</key>
+					<integer>0</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>speedLevel</string>
+			<key>maxLevel</key>
+			<integer>4</integer>
+			<key>levels</key>
+			<array>
+				<dict>
+					<key>levelID</key>
+					<integer>1</integer>
+					<key>levelDescription</key>
+					<string>Next level: +15% speed for all your units! Cost: 30 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>30</integer>
+					<key>upgradeFactor</key>
+					<real>0.15</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>2</integer>
+					<key>levelDescription</key>
+					<string>Next level: +25% speed for all your units! Cost: 80 pet food</string>
+					<key>upgradeCost</key>
+					<integer>80</integer>
+					<key>upgradeFactor</key>
+					<real>0.25</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>3</integer>
+					<key>levelDescription</key>
+					<string>Next level: +40% speed for all your units! Cost: 500 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>500</integer>
+					<key>upgradeFactor</key>
+					<real>0.4</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>4</integer>
+					<key>levelDescription</key>
+					<string>Next level: +60% speed for all your units! Cost: 2000 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>2000</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>5</integer>
+					<key>levelDescription</key>
+					<string>You have reached the highest level.</string>
+					<key>upgradeCost</key>
+					<integer>0</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>spawnRateLevel</string>
+			<key>maxLevel</key>
+			<integer>4</integer>
+			<key>levels</key>
+			<array>
+				<dict>
+					<key>levelID</key>
+					<integer>1</integer>
+					<key>levelDescription</key>
+					<string>Next level: +15% spawn rate for all your units! Cost:  50 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>50</integer>
+					<key>upgradeFactor</key>
+					<real>0.15</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>2</integer>
+					<key>levelDescription</key>
+					<string>Next level: +25% spawn rate for all your units! Cost: 100 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>100</integer>
+					<key>upgradeFactor</key>
+					<real>0.25</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>3</integer>
+					<key>levelDescription</key>
+					<string>Next level: +40% spawn rate for all your units! Cost: 500 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>500</integer>
+					<key>upgradeFactor</key>
+					<real>0.4</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>4</integer>
+					<key>levelDescription</key>
+					<string>Next level: +60% spawn rate for all your units! Cost: 1500 pet food.</string>
+					<key>upgradeCost</key>
+					<integer>1500</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+				<dict>
+					<key>levelID</key>
+					<integer>5</integer>
+					<key>levelDescription</key>
+					<string>You have reached the highest level.</string>
+					<key>upgradeCost</key>
+					<integer>0</integer>
+					<key>upgradeFactor</key>
+					<real>0.6</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
